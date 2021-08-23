@@ -1,0 +1,73 @@
+{
+    "name": "koa-api",
+    "version": "1.0.0",
+    "description": "Basic template to reduce startup friction for koa api apps",
+    "main": "dist/index.js",
+    "scripts": {
+        "test:unit": "mocha -r ts-node/register \"src/**/*.unit.ts\"",
+        "lint": "eslint . --ext .ts",
+        "lint-and-fix": "eslint . --ext .ts --fix",
+        "build-ts": "tsc",
+        "serve": "node dist/server.js",
+        "build": "npm run lint && npm run build-ts",
+        "start": "npm run serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KyleGashler/typescript-template.git"
+    },
+    "author": "Kyle Gashler",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/KyleGashler/typescript-templates/issues"
+    },
+    "homepage": "https://github.com/KyleGashler/typescript-templates#readme",
+    "engines": {
+        "node": "14.x.x",
+        "npm": "6.x.x"
+    },
+    "dependencies": {
+        "koa": "^2.13.1",
+        "koa-bodyparser": "^4.3.0",
+        "koa-json": "^2.0.2",
+        "koa-logger": "^3.2.1",
+        "koa-router": "^7.4.0"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.20",
+        "@types/cron": "^1.7.2",
+        "@types/koa": "2.13.1",
+        "@types/koa__cors": "^3.0.2",
+        "@types/koa__router": "^8.0.4",
+        "@types/koa-bodyparser": "^4.3.0",
+        "@types/koa-helmet": "^6.0.2",
+        "@types/koa-json": "^2.0.20",
+        "@types/koa-logger": "^3.1.1",
+        "@types/koa-router": "^7.4.4",
+        "@types/mocha": "^8.2.3",
+        "@types/node": "^14.17.11",
+        "@types/shelljs": "^0.8.8",
+        "@typescript-eslint/eslint-plugin": "^4.28.2",
+        "@typescript-eslint/parser": "^4.28.2",
+        "chai": "^4.3.4",
+        "eslint": "^7.30.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "mocha": "^9.0.2",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.3.2",
+        "shelljs": "^0.8.4",
+        "ts-node": "^10.0.0",
+        "typescript": "^4.2.3"
+    },
+    "keywords": [
+        "koa",
+        "koa2",
+        "rest",
+        "restful",
+        "api",
+        "koa-boilerplate",
+        "boilerplate",
+        "skeleton"
+    ]
+}
