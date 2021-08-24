@@ -31,7 +31,8 @@
         "koa-bodyparser": "^4.3.0",
         "koa-json": "^2.0.2",
         "koa-logger": "^3.2.1",
-        "koa-router": "^7.4.0"
+        "koa-router": "^7.4.0",
+        "koa-swagger-decorator": "^1.6.4"
     },
     "devDependencies": {
         "@types/chai": "^4.2.20",
