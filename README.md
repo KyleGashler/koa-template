@@ -7,6 +7,8 @@ I wanted a simple starting point to go from whenever building a rest API with Ko
 -   KOA
 -   TypeScript
 -   Pino Logger
+-   TypeORM & PG
+-   dotEnv
 
 ## How to get started
 
@@ -17,9 +19,8 @@ I wanted a simple starting point to go from whenever building a rest API with Ko
 
 ## Things to Add
 
-1. TypeORM & PG
 2. jwt validation for protected routes
-3. convict and dotEnv
+3. convict
 4. logger enhancements
 5. dockerize
 6. End to end test at rout level
