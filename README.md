@@ -6,6 +6,7 @@ I wanted a simple starting point to go from whenever building a rest API with Ko
 
 -   KOA
 -   TypeScript
+-   Pino Logger
 
 ## How to get started
 

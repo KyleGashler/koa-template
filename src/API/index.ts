@@ -1,5 +1,5 @@
 import * as Koa from 'koa';
-import * as logger from 'koa-logger';
+import logger = require('koa-pino-logger');
 import * as json from 'koa-json';
 
 import router from './router';

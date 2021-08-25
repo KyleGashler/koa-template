@@ -30,7 +30,7 @@
         "koa": "^2.13.1",
         "koa-bodyparser": "^4.3.0",
         "koa-json": "^2.0.2",
-        "koa-logger": "^3.2.1",
+        "koa-pino-logger": "^3.0.0",
         "koa-router": "^7.4.0",
         "koa-swagger-decorator": "^1.6.4"
     },
@@ -43,7 +43,7 @@
         "@types/koa-bodyparser": "^4.3.3",
         "@types/koa-helmet": "^6.0.2",
         "@types/koa-json": "^2.0.20",
-        "@types/koa-logger": "^3.1.1",
+        "@types/koa-pino-logger": "^3.0.0",
         "@types/koa-router": "^7.4.4",
         "@types/mocha": "^8.2.3",
         "@types/node": "^14.17.11",
