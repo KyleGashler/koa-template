@@ -1,5 +1,5 @@
-import app from './api/index';
+import App from './api/index';
+import { config } from './config';
 
-app.listen(3000, () => {
-    console.log('Koa started');
-});
+const app = new App(config);
+app.start;
