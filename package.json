@@ -7,10 +7,8 @@
         "test:unit": "mocha -r ts-node/register \"src/**/*.unit.ts\"",
         "lint": "eslint . --ext .ts",
         "lint-and-fix": "eslint . --ext .ts --fix",
-        "build-ts": "tsc",
-        "serve": "node dist/index.js",
         "build": "npm run lint && tsc",
-        "start": "npm run serve"
+        "start": "node dist/index.js"
     },
     "repository": {
         "type": "git",

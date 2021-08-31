@@ -23,4 +23,4 @@ I wanted a simple starting point to go from whenever building a rest API with Ko
 3. convict
 4. logger enhancements
 5. dockerize
-6. End to end test at rout level
+6. End to end test at route level
